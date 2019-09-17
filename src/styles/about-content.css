@@ -7,7 +7,7 @@
 
   padding: 0px 40px;
 }
-.left-side {
+.about-content .left-side {
   width: 48%;
   height: 90%;
   /* background: rgba(128, 128, 128, 0.146); */
@@ -17,11 +17,11 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.left-side p {
+.about-content .left-side p {
   margin-bottom: 10px;
 }
 
-.right-side {
+.about-content .right-side {
   width: 370px;
   height: 90%;
 
@@ -33,7 +33,4 @@
   display: flex;
   justify-content: center;
   align-items: center;
-}
-.right-side .photo {
-
 }

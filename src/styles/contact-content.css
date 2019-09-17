@@ -1,0 +1,17 @@
+.contact-content {
+  height: calc(100vh - 10vh - 10vh);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  padding: 0px 40px;
+  background: grey;
+}
+
+.contact-content .left-side {
+
+}
+.contact-content .right-side {
+
+}

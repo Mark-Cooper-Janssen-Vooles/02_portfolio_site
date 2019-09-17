@@ -1,0 +1,91 @@
+.projects-content {
+  height: calc(100vh - 10vh - 10vh);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  padding: 0px 40px;
+}
+.projects-content .left-side {
+  width: 48%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.projects-content .right-side {
+  width: 48%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.projects-content .card {
+  height: auto;
+  width: auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.projects-content .card .img {
+  margin-bottom: 10px;
+}
+.projects-content .card .text {
+  max-width: 500px;
+}
+.projects-content .card .img-hats {
+  height: 150px;
+  width: 400px;
+  
+  background-image: url("../img/projects/hatsproblem.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  
+}
+
+.projects-content .card .img-widget {
+  height: 300px;
+  width: 250px;
+  
+  background-image: url("../img/projects/widget.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.projects-content .card .img-zen {
+  height: 300px;
+  width: 250px;
+  
+  background-image: url("../img/projects/zen.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.projects-content .card .img-friday-css {
+  height: 150px;
+  width: 400px;
+  
+  background-image: url("../img/projects/friday_css.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.projects-content .card .img-friday-app {
+  height: 150px;
+  width: 400px;
+  
+  background-image: url("../img/projects/terminal.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+

@@ -3,6 +3,8 @@
 @import "index-content.css";
 @import "about-content.css";
 @import "skills-content.css";
+@import "projects-content.css";
+@import "contact-content.csss";
 
 :root {
   --blue: rgb(28, 34, 61);
