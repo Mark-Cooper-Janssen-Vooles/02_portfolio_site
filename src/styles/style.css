@@ -4,7 +4,8 @@
 @import "about-content.css";
 @import "skills-content.css";
 @import "projects-content.css";
-@import "contact-content.csss";
+@import "contact-content.css";
+@import "index-scrollable.css";
 
 :root {
   --blue: rgb(28, 34, 61);
