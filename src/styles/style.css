@@ -1,6 +1,8 @@
 @import "navbar.css";
-@import "index-content.css";
 @import "footer.css";
+@import "index-content.css";
+@import "about-content.css";
+@import "skills-content.css";
 
 :root {
   --blue: rgb(28, 34, 61);

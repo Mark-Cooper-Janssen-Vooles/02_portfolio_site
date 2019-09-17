@@ -1,4 +1,27 @@
 .index-content {
-  height: calc(100vh - 10vh - 10vh - 50px);
-  background: grey;
+  height: calc(100vh - 10vh - 10vh - 80px);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 0px 40px;
+
+  background-image: url("../img/ocean.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin-left: auto;
+  margin-right: auto; 
+
+  /* width: 560px; */
+}
+.index-content h1 {
+  font-size: 28vw;
+  color: white;
+}
+
+.index-scrollable {
+  height: 400vh;
 }

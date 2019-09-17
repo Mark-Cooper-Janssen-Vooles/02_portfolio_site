@@ -1,0 +1,86 @@
+.skills-content {
+  height: calc(100vh - 10vh - 10vh);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  padding: 0px 40px;
+}
+.skills-content .skill {
+  width: 100%;
+  height: 20%;
+  /* background: rgba(77, 77, 77, 0.687); */
+  margin-bottom: 25px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.skills-content .skill .text {
+  width: 50%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.skills-content .skill .text a {
+  text-decoration: none;
+  color: grey;
+}
+.skills-content .skill .text a:hover {
+  text-decoration: none;
+  color: var(--blue);
+}
+.skills-content .skill .image-html {
+  width: 50%;
+  height: 100%;
+
+  background-image: url("../img/css.jpg");
+  /* Photo by Lauren Mancke on Unsplash */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.skills-content .skill .image-ruby {
+  width: 50%;
+  height: 100%;
+
+  background-image: url("../img/rails.jpg");
+  /* Photo by Sunyu Kim on Unsplash */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.skills-content .skill .image-mern {
+  width: 50%;
+  height: 100%;
+
+  background-image: url("../img/mern.jpg");
+  /* Photo by Markus Spiske on Unsplash */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.skills-content .skill .image-architecture {
+  width: 50%;
+  height: 100%;
+
+  background-image: url("../img/architecture.jpg");
+  /* Photo by Daniel von Appen on Unsplash */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.skills-content .skill .image-workexp {
+  width: 50%;
+  height: 100%;
+
+  background-image: url("../img/workexp.jpg");
+  /* Photo by Daniel von Appen on Unsplash */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}

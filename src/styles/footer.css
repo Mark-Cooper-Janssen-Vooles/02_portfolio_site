@@ -1,4 +1,16 @@
 footer {
-  height: 50px;
-  background: grey;
+  height: 80px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  box-sizing: border-box;
+  padding: 0px 40px;
+}
+footer .icon {
+  color: var(--blue);
+}
+.left a {
+  color: grey;
 }
