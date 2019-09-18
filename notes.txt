@@ -1,0 +1,25 @@
+on home page, when it gets to "from" make that have a blue background, white text.
+
+maybe just move github / linkedin logos to the contact page? put them under melb, vic thing... justified right?
+
+put the MYOB interview video on the about me page instead of the photo.. center align?
+
+MCJ-V as logo on other pages
+
+contact page add github and linkedin
+put phone in blue background
+put email in blue 
+melb / vic 
+
+add side arrow on home to go to next page.. on every page. I guess this is sorta adding a footer element to each page. On hover, turn the arrow grey. 
+home has V >
+about has < > 
+skills has < >
+projects has < >
+contact has <
+make them bounce 
+on projects page make them sticky. + center align projects + add title "projects blog" with blue background white text, aligned to the right side of the page. Add date + tags to posts.
+
+When you're on the page, underline + make blue the icon in the navbar. is this like nav:active ? 
+
+make arrow and linkedin / github bounce every 4 sec repeat?

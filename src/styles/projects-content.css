@@ -1,20 +1,13 @@
-/* .projects-content {
-  margin-left: 40px;
-  background: var(--blue);
-  color: white;
-  width: 40%;
-  min-width: 400px;
-  margin-bottom: 20px;
-} */
-
 .projects-content {
-  height: calc(100vh - 10vh - 10vh);
+  height: calc(100vh - 10vh - 10vh - 80px);
 
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
 
   padding: 0px 40px;
+
+  overflow-y: scroll;
 }
 .projects-content .left-side {
   width: 48%;

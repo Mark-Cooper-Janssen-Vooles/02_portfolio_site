@@ -11,9 +11,18 @@ footer {
 footer .icon {
   color: var(--blue);
 }
+footer .icon:hover {
+  color: grey;
+}
+
 .left a {
   color: grey;
 }
 .left a:hover {
   color: var(--blue);
+}
+
+.left .arrows {
+  box-sizing: border-box;
+  /* padding: 5px; */
 }

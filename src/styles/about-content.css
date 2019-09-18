@@ -1,5 +1,5 @@
 .about-content {
-  height: calc(100vh - 10vh - 10vh);
+  height: calc(100vh - 10vh - 10vh - 80px);
 
   display: flex;
   justify-content: space-between;
@@ -43,8 +43,10 @@
 
 .about-content .right-side {
   border-top: 5px solid var(--blue);
-  width: 370px;
-  height: 90%;
+  height: 400px;
+  /* width: 370px;
+  height: calc(100vh - 10vh - 10vh -80px); */
+  /* height: 50%; */
 
   background: grey;
   overflow: hidden;

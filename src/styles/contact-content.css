@@ -1,5 +1,5 @@
 .contact-content {
-  height: calc(100vh - 10vh - 10vh);
+  height: calc(100vh - 10vh - 10vh - 80px);
 
   display: flex;
   justify-content: space-between;
@@ -11,25 +11,33 @@
   overflow-x: hidden;  */
 }
 
-.contact-content .left-side {
-  width: 48%;
+.contact-content .right-side {
+  width: 70%;
   height: 90%;
 
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
 }
-.contact-content .left-side h1 {
+.contact-content .right-side h1 {
+  width: 100%;
+  text-align: end;
   margin-bottom: 40px;
 }
-.contact-content .left-side h4 {
+/* .contact-content .right-side .subtitle {
+  width: 50%;
+  text-align: end;
+} */
+.contact-content .right-side h4 {
+  width: 100%;
+  text-align: end;
   margin-bottom: 40px;
 }
-.contact-content .left-side h1 {
+.contact-content .right-side h1 {
   background: var(--blue);
   color: white;
 }
-.contact-content .left-side h1 span {
+.contact-content .right-side h1 span {
   animation: blink 1s linear infinite;
 }
 @keyframes blink{
@@ -40,7 +48,7 @@
   100%{   color: white;    }
 }
 .contact-content .right-side {
-  width: 48%;
+  width: 40%;
   height: 90%;
   /* background: grey; */
 
@@ -80,8 +88,15 @@
   background: var(--blue);
   color: white;
 }
+.contact-content form .submit-button {
+  width: calc(100% + 5px)
+}
 .contact-content form .submit-button:hover {
   background: var(--blue);
   color: white;
   border: none;
+}
+.contact-content .left-side form .title {
+  background: var(--blue);
+  color: white;
 }
