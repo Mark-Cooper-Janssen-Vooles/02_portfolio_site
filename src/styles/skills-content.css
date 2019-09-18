@@ -17,9 +17,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  overflow: hidden;
 }
 .skills-content .skill .text {
-  width: 50%;
+  width: 49%;
   height: 100%;
 
   display: flex;
@@ -34,53 +36,99 @@
   text-decoration: none;
   color: var(--blue);
 }
+/* SKILL: HTML CSS  */
 .skills-content .skill .image-html {
-  width: 50%;
+  width: 49%;
   height: 100%;
 
-  background-image: url("../img/skills/css_opt.jpg");
-  /* Photo by Lauren Mancke on Unsplash */
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  overflow: hidden;
 }
+.skills-content .skill .image-html img {
+  /* transition: transform .5s ease; */
+  transition: transform .5s, filter 0.5s ease-in-out;
+  filter: grayscale(50%);
+}
+.skills-content .skill .image-html img:hover {
+  transform: scale(1.1);
+  filter: grayscale(0);
+}
+/* SKILL: RUBY */
 .skills-content .skill .image-ruby {
-  width: 50%;
+  width: 49%;
   height: 100%;
 
-  background-image: url("../img/skills/rails_opt.jpg");
-  /* Photo by Sunyu Kim on Unsplash */
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  overflow: hidden;
 }
+.skills-content .skill .image-ruby img {
+  transition: transform .5s, filter 0.5s ease-in-out;
+  filter: grayscale(50%);
+}
+.skills-content .skill .image-ruby img:hover {
+  transform: scale(1.1);
+  filter: grayscale(0);
+}
+/* SKILL: MERN */
 .skills-content .skill .image-mern {
-  width: 50%;
+  width: 49%;
   height: 100%;
 
-  background-image: url("../img/skills/mern_opt.jpg");
-  /* Photo by Markus Spiske on Unsplash */
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  overflow: hidden;
 }
+.skills-content .skill .image-mern img {
+  transition: transform .5s, filter 0.5s ease-in-out;
+  filter: grayscale(50%);
+}
+.skills-content .skill .image-mern img:hover {
+  transform: scale(1.1);
+  filter: grayscale(0);
+}
+/* SKILL: ARCHITECTURE */
 .skills-content .skill .image-architecture {
-  width: 50%;
+  width: 49%;
   height: 100%;
 
-  background-image: url("../img/skills/architecture_opt.jpg");
-  /* Photo by Daniel von Appen on Unsplash */
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  overflow: hidden;
 }
+.skills-content .skill .image-architecture img {
+  transition: transform .5s, filter 0.5s ease-in-out;
+  filter: grayscale(50%);
+}
+.skills-content .skill .image-architecture img:hover {
+  transform: scale(1.1);
+  filter: grayscale(0);
+}
+/* SKILL: WORKEXP */
 .skills-content .skill .image-workexp {
-  width: 50%;
+  width: 49%;
   height: 100%;
 
-  background-image: url("../img/skills/workexp_opt.jpg");
-  /* Photo by Daniel von Appen on Unsplash */
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  overflow: hidden;
+}
+.skills-content .skill .image-workexp img {
+  transition: transform .5s, filter 0.5s ease-in-out;
+  filter: grayscale(50%);
+}
+.skills-content .skill .image-workexp img:hover {
+  transform: scale(1.1);
+  filter: grayscale(0);
 }

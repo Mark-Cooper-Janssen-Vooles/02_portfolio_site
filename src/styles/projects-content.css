@@ -49,52 +49,91 @@
 .projects-content .card .text {
   max-width: 500px;
 }
+
+/* HATS PROJECT */
 .projects-content .card .img-hats {
   height: 150px;
   width: 400px;
-  
-  background-image: url("../img/projects/hatsproblem.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
 
-  
+  overflow: hidden;
 }
-
+.projects-content .card .img-hats img {
+  transition: transform .5s, filter 0.5s ease-in-out;
+  filter: grayscale(60%);
+}
+.projects-content .card .img-hats img:hover {
+  transform: scale(1.1);
+  filter: grayscale(0);
+}
+/* WIDGET PROJECT */
 .projects-content .card .img-widget {
   height: 300px;
   width: 250px;
   
-  background-image: url("../img/projects/widget.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  overflow: hidden;
 }
+.projects-content .card .img-widget img {
+  transition: transform .5s, filter 0.5s ease-in-out;
+  filter: grayscale(60%);
+}
+.projects-content .card .img-widget img:hover {
+  transform: scale(1.1);
+  filter: grayscale(0);
+}
+/* ZEN PROJECT */
 .projects-content .card .img-zen {
   height: 300px;
   width: 250px;
   
-  background-image: url("../img/projects/zen.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  overflow: hidden;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+.projects-content .card .img-zen img {
+  transition: transform .5s, filter 0.5s ease-in-out;
+  filter: grayscale(60%);
+}
+.projects-content .card .img-zen img:hover {
+  transform: scale(1.1);
+  filter: grayscale(0);
+}
+/* FRIDAY CSS */
 .projects-content .card .img-friday-css {
   height: 150px;
   width: 400px;
-  
-  background-image: url("../img/projects/friday_css.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+
+  overflow: hidden;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+.projects-content .card .img-friday-css img {
+  transition: transform .5s, filter 0.5s ease-in-out;
+  filter: grayscale(60%);
+}
+.projects-content .card .img-friday-css img:hover {
+  transform: scale(1.1);
+  filter: grayscale(0);
+}
+/* FRIDAY APP */
 .projects-content .card .img-friday-app {
   height: 150px;
   width: 400px;
   
-  background-image: url("../img/projects/terminal.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
+  overflow: hidden;
 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.projects-content .card .img-friday-app img {
+  transition: transform .5s, filter 0.5s ease-in-out;
+  filter: grayscale(60%);
+}
+.projects-content .card .img-friday-app img:hover {
+  transform: scale(1.1);
+  filter: grayscale(0);
+}

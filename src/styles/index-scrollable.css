@@ -5,7 +5,6 @@
 
 /* PART 1 */
 .index-scrollable .part-1 {
-  background: blue;
   height: 80vh;
   width: 100%;
   display: flex;
@@ -29,6 +28,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
+
+  transition: filter 0.5s ease-in-out;
+  filter: grayscale(60%);
+}
+.index-scrollable .part-1 .perth-img:hover {
+  filter: grayscale(0);
 }
 .index-scrollable .part-1 .perth-img h1{
   margin-top: 25%;
@@ -49,7 +54,6 @@
 
 /* PART 2 */
 .index-scrollable .part-2 {
-  background: blue;
   height: 80vh;
   width: 100%;
   display: flex;
@@ -73,6 +77,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
+
+  transition: filter 0.5s ease-in-out;
+  filter: grayscale(60%);
+}
+.index-scrollable .part-2 .melbourne-img:hover {
+  filter: grayscale(0);
 }
 .index-scrollable .part-2 .melbourne-img h1{
   margin-top: 25%;
@@ -93,7 +103,6 @@
 
 /* PART 3 */
 .index-scrollable .part-3 {
-  background: blue;
   height: 80vh;
   width: 100%;
   display: flex;
@@ -117,6 +126,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
+
+  transition: filter 0.5s ease-in-out;
+  filter: grayscale(60%);
+}
+.index-scrollable .part-3 .architecture-img:hover {
+  filter: grayscale(0);
 }
 .index-scrollable .part-3 .architecture-img h1{
   margin-top: 25%;
@@ -137,7 +152,6 @@
 
 /* PART 4 */
 .index-scrollable .part-4 {
-  background: blue;
   height: 60vh;
   width: 100%;
   display: flex;
@@ -161,6 +175,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
+
+  transition: filter 0.5s ease-in-out;
+  filter: grayscale(60%);
+}
+.index-scrollable .part-4 .programming-img:hover {
+  filter: grayscale(0);
 }
 .index-scrollable .part-4 .programming-img h1{
   margin-top: 25%;

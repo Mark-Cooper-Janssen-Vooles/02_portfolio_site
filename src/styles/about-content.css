@@ -33,39 +33,10 @@
   box-sizing: border-box;
 }
 .about-content img {
-  transition: transform .5s ease;
+  transition: transform .5s, filter 0.5s ease-in-out;
+  filter: grayscale(40%);
 }
 .about-content img:hover {
   transform: scale(1.1);
-}
-
-/* .about-content .right-side .photo {
-  height: 100%;
-  width: 100%;
-  background-image: url("../img/photo.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  max-width: 100%;
-  transition: all 0.3s;
-  display: block;
-  /* height: auto; */
-  transform: scale(1);
-
-  box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-} */
-
-.about-content .right-side:hover {
-  transform: scale(1.1);
-
-  box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
+  filter: grayscale(0);
 }
