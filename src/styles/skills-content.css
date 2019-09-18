@@ -26,7 +26,11 @@
 
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
+}
+.skills-content .skill .text .title {
+  background: var(--blue);
+  color: white;
 }
 .skills-content .skill .text a {
   text-decoration: none;
@@ -38,6 +42,7 @@
 }
 /* SKILL: HTML CSS  */
 .skills-content .skill .image-html {
+  border-top: 10px solid var(--blue);
   width: 49%;
   height: 100%;
 
@@ -58,6 +63,7 @@
 }
 /* SKILL: RUBY */
 .skills-content .skill .image-ruby {
+  border-top: 10px solid var(--blue);
   width: 49%;
   height: 100%;
 
@@ -77,6 +83,7 @@
 }
 /* SKILL: MERN */
 .skills-content .skill .image-mern {
+  border-top: 10px solid var(--blue);
   width: 49%;
   height: 100%;
 
@@ -96,6 +103,7 @@
 }
 /* SKILL: ARCHITECTURE */
 .skills-content .skill .image-architecture {
+  border-top: 10px solid var(--blue);
   width: 49%;
   height: 100%;
 
@@ -115,6 +123,7 @@
 }
 /* SKILL: WORKEXP */
 .skills-content .skill .image-workexp {
+  border-top: 10px solid var(--blue);
   width: 49%;
   height: 100%;
 

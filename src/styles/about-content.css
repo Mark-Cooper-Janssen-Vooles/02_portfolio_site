@@ -10,21 +10,39 @@
   overflow: hidden;
 }
 .about-content .left-side {
-  width: 48%;
+  width: 55%;
   height: 90%;
   min-width: 370px;
   /* background: rgba(128, 128, 128, 0.146); */
 
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: flex-start;
   flex-direction: column;
 }
+.about-content .left-side header {
+  width: 100%;
+  background: var(--blue);
+  color: white;
+  margin-bottom: 10px;
+}
+.about-content .left-side header span{
+  animation: blink 1s linear infinite;
+}
+@keyframes blink{
+    0%{     color: white;    }
+    49%{    color: transparent; }
+    50%{    color: transparent; }
+    99%{    color:transparent;  }
+    100%{   color: white;    }
+}
+
 .about-content .left-side p {
   margin-bottom: 10px;
 }
 
 .about-content .right-side {
+  border-top: 5px solid var(--blue);
   width: 370px;
   height: 90%;
 

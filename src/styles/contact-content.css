@@ -6,6 +6,9 @@
   align-items: flex-start;
 
   padding: 0px 40px;
+
+  /* overflow-y: hidden;
+  overflow-x: hidden;  */
 }
 
 .contact-content .left-side {
@@ -13,7 +16,7 @@
   height: 90%;
 
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   flex-direction: column;
 }
 .contact-content .left-side h1 {
@@ -22,17 +25,35 @@
 .contact-content .left-side h4 {
   margin-bottom: 40px;
 }
-
+.contact-content .left-side h1 {
+  background: var(--blue);
+  color: white;
+}
+.contact-content .left-side h1 span {
+  animation: blink 1s linear infinite;
+}
+@keyframes blink{
+  0%{     color: white;    }
+  49%{    color: transparent; }
+  50%{    color: transparent; }
+  99%{    color:transparent;  }
+  100%{   color: white;    }
+}
 .contact-content .right-side {
   width: 48%;
   height: 90%;
   /* background: grey; */
 
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   flex-direction: column;
 }
+/* .contact-content .right-side .title {
+  background: var(--blue);
+  color: white;
+} */
+
 .contact-content form {
   display: flex;
   justify-content: center;

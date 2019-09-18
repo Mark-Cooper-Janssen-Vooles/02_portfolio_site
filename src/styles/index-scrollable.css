@@ -29,11 +29,6 @@
   justify-content: center;
   align-items: center;
 
-  transition: filter 0.5s ease-in-out;
-  filter: grayscale(60%);
-}
-.index-scrollable .part-1 .perth-img:hover {
-  filter: grayscale(0);
 }
 .index-scrollable .part-1 .perth-img h1{
   margin-top: 25%;
@@ -77,12 +72,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
-  transition: filter 0.5s ease-in-out;
-  filter: grayscale(60%);
-}
-.index-scrollable .part-2 .melbourne-img:hover {
-  filter: grayscale(0);
 }
 .index-scrollable .part-2 .melbourne-img h1{
   margin-top: 25%;
@@ -126,12 +115,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
-  transition: filter 0.5s ease-in-out;
-  filter: grayscale(60%);
-}
-.index-scrollable .part-3 .architecture-img:hover {
-  filter: grayscale(0);
 }
 .index-scrollable .part-3 .architecture-img h1{
   margin-top: 25%;
@@ -175,12 +158,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
-  transition: filter 0.5s ease-in-out;
-  filter: grayscale(60%);
-}
-.index-scrollable .part-4 .programming-img:hover {
-  filter: grayscale(0);
 }
 .index-scrollable .part-4 .programming-img h1{
   margin-top: 25%;
