@@ -11,6 +11,8 @@ nav .logo {
   text-decoration: none;
   color: var(--blue);
   font-size: 40px;
+
+  z-index: 1;
 }
 nav .logo:hover {
   color: grey;
