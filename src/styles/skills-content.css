@@ -38,7 +38,7 @@
   width: 50%;
   height: 100%;
 
-  background-image: url("../img/css.jpg");
+  background-image: url("../img/skills/css_opt.jpg");
   /* Photo by Lauren Mancke on Unsplash */
   background-size: cover;
   background-position: center;
@@ -48,7 +48,7 @@
   width: 50%;
   height: 100%;
 
-  background-image: url("../img/rails.jpg");
+  background-image: url("../img/skills/rails_opt.jpg");
   /* Photo by Sunyu Kim on Unsplash */
   background-size: cover;
   background-position: center;
@@ -58,7 +58,7 @@
   width: 50%;
   height: 100%;
 
-  background-image: url("../img/mern.jpg");
+  background-image: url("../img/skills/mern_opt.jpg");
   /* Photo by Markus Spiske on Unsplash */
   background-size: cover;
   background-position: center;
@@ -68,7 +68,7 @@
   width: 50%;
   height: 100%;
 
-  background-image: url("../img/architecture.jpg");
+  background-image: url("../img/skills/architecture_opt.jpg");
   /* Photo by Daniel von Appen on Unsplash */
   background-size: cover;
   background-position: center;
@@ -78,7 +78,7 @@
   width: 50%;
   height: 100%;
 
-  background-image: url("../img/workexp.jpg");
+  background-image: url("../img/skills/workexp_opt.jpg");
   /* Photo by Daniel von Appen on Unsplash */
   background-size: cover;
   background-position: center;
