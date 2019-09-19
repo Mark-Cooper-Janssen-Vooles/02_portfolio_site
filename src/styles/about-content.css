@@ -48,7 +48,7 @@
   height: calc(100vh - 10vh - 10vh -80px); */
   /* height: 50%; */
 
-  background: grey;
+  background: var(--blue);
   overflow: hidden;
   box-sizing: border-box;
 }
@@ -72,5 +72,19 @@
   .right-side img {
     height: 200px;
   }
-
+}
+@media only screen and (max-width: 380px) {
+  /* .about-content {
+    width: 300px;
+    display: block;
+  } */
+  .about-content .left-side {
+    min-width: 300px;
+  }
+  .right-side {
+    height: 50px;
+  }
+  .right-side img {
+    height: 0px;
+  }
 }

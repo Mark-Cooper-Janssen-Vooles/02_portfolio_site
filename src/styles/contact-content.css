@@ -123,5 +123,6 @@
   .right-side {
     margin-top: 20px;
     font-size: 10px;
+    justify-content: flex-start;
   }
 }

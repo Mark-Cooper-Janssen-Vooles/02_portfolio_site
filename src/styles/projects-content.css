@@ -201,3 +201,30 @@
   transform: scale(1.1);
   filter: grayscale(0);
 }
+@media only screen and (max-width: 510px) {
+  .projects-content .card {
+    width: 270px;
+  }
+  .projects-content .card .text {
+    width: 270px;
+  }
+
+  .projects-content .card .img-hats {
+    width: 270px;
+  }
+  .projects-content .card .img-friday-css {
+    width: 270px;
+  }
+  .projects-content .card .img-friday-app { 
+    width: 270px;
+  }
+  .projects-content .card {
+    margin-right: 0px;
+  }
+  .projects-content {
+    padding: 0px 5px 0px 5px;
+  }
+  .project-title {
+    margin: 25px;
+  }
+}

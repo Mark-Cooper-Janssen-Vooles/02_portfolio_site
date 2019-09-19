@@ -52,11 +52,11 @@ nav .links .link:hover {
   }
 }
 @media only screen and (max-width: 580px) {
-  /* .short-text {
-    display: block;
-  } */
+  .short-text {
+    display: none;
+  }
   .full-text {
-    /* display: none; */
+    display: block;
     font-size: 25px;
   }
   nav {
@@ -64,5 +64,10 @@ nav .links .link:hover {
   }
   .logo {
     padding-top: 20px;
+  }
+}
+@media only screen and (max-width: 380px) {
+  nav .links .link {
+    font-size: 20px;
   }
 }
