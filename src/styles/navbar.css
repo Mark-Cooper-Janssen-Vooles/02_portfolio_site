@@ -36,7 +36,22 @@ nav .links .link:hover {
   color: var(--blue);
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 780px) {
+  .full-text {
+    /* display: none; */
+    font-size: 25px;
+  }
+}
+@media only screen and (max-width: 680px) {
+    .short-text {
+    display: block;
+  }
+  .full-text {
+    display: none;
+    font-size: 25px;
+  }
+}
+@media only screen and (max-width: 580px) {
   /* .short-text {
     display: block;
   } */

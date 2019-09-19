@@ -12,7 +12,7 @@
 }
 
 .contact-content .right-side {
-  width: 70%;
+  /* width: 70%; */
   height: 90%;
 
   display: flex;
@@ -22,8 +22,9 @@
 .contact-content .right-side h1 {
   width: 100%;
   text-align: end;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
+
 .contact-content .right-side h4 {
   width: 100%;
   text-align: end;
@@ -44,7 +45,7 @@
   100%{   color: white;    }
 }
 .contact-content .right-side {
-  width: 40%;
+  width: 50%;
   height: 90%;
 
 
@@ -52,6 +53,9 @@
   justify-content: flex-start;
   align-items: center;
   flex-direction: column;
+}
+.contact-content .right-side .margin {
+  height: 75px;
 }
 .contact-content .right-side .icons {
   width: 100%;
@@ -107,4 +111,17 @@
 .contact-content .left-side form .title {
   background: var(--blue);
   color: white;
+  width: calc(100% + 5px)
+}
+@media only screen and (max-width: 500px) {
+  .contact-content {
+    flex-direction: column;
+    /* align-items: center; */
+    overflow-y: scroll;
+
+  }
+  .right-side {
+    margin-top: 20px;
+    font-size: 10px;
+  }
 }
