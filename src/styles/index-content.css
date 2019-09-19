@@ -48,13 +48,3 @@
 .justify-right {
   margin-right: 40px;
 }
-/* .index-content h2 span{
-  animation: blink 1s linear infinite;
-}
-@keyframes blink{
-    0%{     color: black;    }
-    49%{    color: transparent; }
-    50%{    color: transparent; }
-    99%{    color:transparent;  }
-    100%{   color: black;    }
-} */

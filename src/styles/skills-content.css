@@ -3,18 +3,16 @@
 
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   flex-direction: column;
 
   padding: 0px 40px;
-
-  /* overflow-y: scroll; */
 }
 .skills-content .skill {
   width: 100%;
   height: 20%;
-  /* background: rgba(77, 77, 77, 0.687); */
-  margin-bottom: 25px;
+
+  margin-bottom: 10px;
 
   display: flex;
   justify-content: space-between;
@@ -24,6 +22,7 @@
 }
 .skills-content .skill .text {
   width: 49%;
+  min-width: 450px;
   height: 100%;
 
   display: flex;
@@ -38,10 +37,15 @@
   text-decoration: none;
   color: grey;
 }
+/* .skills-content .skill #img {
+  overflow: hidden;
+}  */
+
 .skills-content .skill .text a:hover {
   text-decoration: none;
-  color: var(--blue);
+  color: var(--blue); 
 }
+
 /* SKILL: HTML CSS  */
 .skills-content .skill .image-html {
   border-top: 10px solid var(--blue);
@@ -142,4 +146,55 @@
 .skills-content .skill .image-workexp img:hover {
   transform: scale(1.1);
   filter: grayscale(0);
+}
+
+@media only screen and (max-width: 500px) {
+  .skills-content {
+    overflow-y: scroll;
+    /* height: auto; */
+    display: block;
+    padding: 0px 20px;
+  }
+  .skills-content .skill {
+    /* height: auto; */
+    height: auto;
+    min-width: none;
+    width: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+    overflow: visible;
+  }
+  .skills-content .skill .text {
+    min-width: 100%;
+    height: auto;
+    margin-bottom: 0px;
+  }
+
+  .skills-content .skill .image-html {
+    width: 100%;
+    height: 60px;
+    border-top: none;
+  }
+  .skills-content .skill .image-ruby {
+    width: 100%;
+    height: 60px; 
+    border-top: none;   
+  }
+  .skills-content .skill .image-mern {
+    width: 100%;
+    height: 60px; 
+    border-top: none;
+  }
+  .skills-content .skill .image-architecture {
+    width: 100%;
+    height: 60px;  
+    border-top: none;
+  }
+  .skills-content .skill .image-workexp {
+    width: 100%;
+    height: 60px; 
+    border-top: none;
+  }
+
 }

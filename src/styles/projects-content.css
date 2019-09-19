@@ -1,6 +1,44 @@
 .projects-content {
-  height: calc(100vh - 10vh - 10vh - 80px);
+  display: flex;
+  flex-direction: column;
 
+  justify-content: center;
+  align-items: flex-start;
+}
+.main-content {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  background: red;
+}
+.project-title {
+  height: 38px;
+  width: 250px;
+
+  background-color: white;
+  color: black;
+  mix-blend-mode: screen;
+}
+.project-title h1 {
+  width: 100%;
+  color: white;
+  background: var(--blue);
+}
+.project-title h1 span {
+  animation: blink 1s linear infinite;
+}
+@keyframes blink{
+    0%{     color: white;    }
+    49%{    color: transparent; }
+    50%{    color: transparent; }
+    99%{    color:transparent;  }
+    100%{   color: white;    }
+}
+
+.projects-content {
+  height: calc(100vh - 10vh - 10vh - 80px);
+  /* width: 100%; */
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -9,22 +47,27 @@
 
   overflow-y: scroll;
 }
+.projects-content .project-title {
+  background: var(--blue);
+  margin-bottom: 10px;
+}
 .projects-content .left-side {
-  width: 48%;
+  /* width: 50%; */
 
   display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
+  flex-wrap: wrap;
+  /* flex-direction: row; */
+  justify-content: center;
   align-items: flex-start;
 }
-.projects-content .right-side {
+/* .projects-content .right-side {
   width: 48%;
 
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-end;
-}
+} */
 
 .projects-content .card {
   height: auto;
@@ -34,13 +77,14 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  margin-bottom: 40px;
-
+  margin-bottom: 10px;
 
   box-sizing: border-box;
   padding: 10px;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
+
+  margin-right: 10px;
 }
 .projects-content .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
@@ -50,6 +94,24 @@
 }
 .projects-content .card .text {
   max-width: 500px;
+}
+.projects-content .card .info {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  font-size: 14px;
+}
+.projects-content .card .info .date {
+  color: grey;
+  margin-bottom: 5px;
+}
+.projects-content .card .info .hash-tags {
+
+}
+.projects-content .card .info .hash-tags span {
+  margin-left: 5px;
+  color: white;
+  background: var(--blue);
 }
 
 /* HATS PROJECT */

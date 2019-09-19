@@ -9,13 +9,16 @@ nav {
 }
 nav .logo {
   text-decoration: none;
-  color: var(--blue);
+  color: grey;
   font-size: 40px;
 
   z-index: 1;
 }
 nav .logo:hover {
-  color: grey;
+  color: var(--blue);
+}
+.short-text {
+  display: none;
 }
 nav .links {
   display: flex;
@@ -31,4 +34,20 @@ nav .links .link {
 }
 nav .links .link:hover {
   color: var(--blue);
+}
+
+@media only screen and (max-width: 500px) {
+  /* .short-text {
+    display: block;
+  } */
+  .full-text {
+    /* display: none; */
+    font-size: 25px;
+  }
+  nav {
+    flex-direction: column;
+  }
+  .logo {
+    padding-top: 20px;
+  }
 }

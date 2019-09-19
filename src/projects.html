@@ -8,82 +8,127 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
   <script src="https://kit.fontawesome.com/857aed0774.js"></script>
   <title>Mark Janssen</title>
+  <style>
+      #active {
+        color: var(--blue);
+        text-decoration: underline;
+      }
+    </style>
 </head>
 <body>
   
   <nav>
     <a href="./index.html" class="logo">
-      <h4>Mark Cooper</h4>
-      <h4>Janssen-Vooles</h4>
+      <h4>MCJ-V</h4>
     </a>
     <div class="links">
       <a href="./about.html" class="link">About</a>
       <a href="./skills.html" class="link">Skills</a>
-      <a href="./projects.html" class="link">Projects</a>
+      <a href="./projects.html" class="link" id="active">Projects</a>
       <a href="./contact.html" class="link">Contact</a>
     </div>
   </nav>
 
-  <!-- <h1 class="project-title">Project Blog</h1> -->
+  <!-- <div class="project-title">
+    <h1>Projects blog</h1>
+  </div> -->
 
   <div class="projects-content">
 
-    <div class="left-side">
+    <div class="project-title">
+        <h1>Projects blog<span>.</span></h1>
+    </div>
 
-      <div class="card">
+    <div class="left-side">
+      <div class="card" id="terminal-app">
         <a href="https://github.com/Mark-Cooper-Janssen-Vooles/friday_selector_app" class="img-friday-app img" target="_blank">
           <img src="img/projects/terminal.png" alt="">
         </a>
         <div class="text">
-          <h3>Assignment One: Friday Selector</h3>
+          <div class="info">
+              <p class="date">10/10/19</p>
+              <div class="hash-tags">
+                <span>#Ruby</span>
+                <span>#TerminalApp</span>
+                <span>#CoderAcademy</span>
+                <span>#Assignment</span>
+              </div>
+          </div>
+
+          <h3>Friday Selector Terminal App</h3>
           <p>The first assignment of Coder Academy involved creating a terminal application in the Ruby programming language. Click the photo above for more information, which contains a detailed readme.</p>
         </div>
       </div>
-
       <div class="card" id="zen_garden">
         <a href="https://github.com/Mark-Cooper-Janssen-Vooles/zen_garden_challenge" class="img-zen img" target="_blank">
           <img src="img/projects/zen.png" alt="">
         </a>
         <div class="text">
-          <h3>CSS Challenge: Zen Garden</h3>
+            <div class="info">
+                <p class="date">15/10/19</p>
+                <div class="hash-tags">
+                  <span>#HTML</span>
+                  <span>#CSS</span>
+                  <span>#CoderAcademy</span>
+                  <span>#Challenge</span>
+                </div>
+            </div>
+          <h3>Zen Garden</h3>
           <p>In our first and only week learning CSS we were given the Zen Garden Challenge. Click the photo above for more information.</p>
         </div>
       </div>
-
+      <div class="card" id="widget_chall">
+          <a href="https://gist.github.com/Mark-Cooper-Janssen-Vooles/852cbac1b76e1f7a622bafb99943086c" class="img-widget img" target="_blank">
+            <img src="img/projects/widget.png" alt="">
+          </a>
+          <div class="text">
+            <div class="info">
+                <p class="date">25/09/19</p>
+                <div class="hash-tags">
+                  <span>#Ruby</span>
+                  <span>#CoderAcademy</span>
+                  <span>#Challenge</span>
+                </div>
+            </div>
+            <h3>Widget CSV</h3>
+            <p>We were given this challenge as part of our second week learning to program in the Ruby language. It involved using a CSV file to read and write data entered into the terminal. Click on the photo above to see a gist repository of my solution!</p>
+          </div>
+        </div>
       <div class="card" id="hats_prob">
         <a href="https://gist.github.com/Mark-Cooper-Janssen-Vooles/4eaa4b02f5cabeceb8489673bbcb6836" class="img-hats img" target="_blank">
           <img src="img/projects/hatsproblem.png" alt="">
         </a>
         <div class="text">
-          <h3>Ruby Challenge: The Hats Problem</h3>
+          <div class="info">
+              <p class="date">26/09/19</p>
+              <div class="hash-tags">
+                <span>#Ruby</span>
+                <span>#CoderAcademy</span>
+                <span>#Challenge</span>
+              </div>
+          </div>
+          <h3>The Hats Problem</h3>
           <p>We were given this challenge as part of our first week learning to program in the Ruby language, click on the photo above to see a gist repository of my solution!</p>
         </div>
       </div>
-
-    </div>
-
-    <div class="right-side">
-
-      <div class="card" id="widget_chall">
-        <a href="https://gist.github.com/Mark-Cooper-Janssen-Vooles/852cbac1b76e1f7a622bafb99943086c" class="img-widget img" target="_blank">
-          <img src="img/projects/widget.png" alt="">
-        </a>
-        <div class="text">
-          <h3>Ruby Challenge: Widget CSV</h3>
-          <p>We were given this challenge as part of our second week learning to program in the Ruby language. It involved using a CSV file to read and write data entered into the terminal. Click on the photo above to see a gist repository of my solution!</p>
-        </div>
-      </div>
-
-      <div class="card">
+      <div class="card" id="friday_css">
           <a href="https://github.com/Mark-Cooper-Janssen-Vooles/friday-selector-app-html-css" class="img-friday-css img" target="_blank">
             <img src="img/projects/friday_css.png" alt="">
           </a>
           <div class="text">
+            <div class="info">
+                <p class="date">12/10/19</p>
+                <div class="hash-tags">
+                  <span>#HTML</span>
+                  <span>#CSS</span>
+                  <span>#CoderAcademy</span>
+                  <span>#Front-end</span>
+                </div>
+            </div>
             <h3>Friday Selector App: HTML+CSS Design</h3>
             <p>A mixture of CSS challenges, this design includes responsive media queries and an animated logo in the top left corner. Click the photo above for more information.</p>
           </div>
-        </div>
-
+      </div>
     </div>
 
   </div>

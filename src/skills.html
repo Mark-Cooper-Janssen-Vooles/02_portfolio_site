@@ -8,6 +8,13 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
   <script src="https://kit.fontawesome.com/857aed0774.js"></script>
   <title>Mark Janssen</title>
+
+  <style>
+    #active {
+      color: var(--blue);
+      text-decoration: underline;
+    }
+  </style>
 </head>
 <body>
   
@@ -17,7 +24,7 @@
     </a>
     <div class="links">
       <a href="./about.html" class="link">About</a>
-      <a href="./skills.html" class="link">Skills</a>
+      <a href="./skills.html" class="link" id="active">Skills</a>
       <a href="./projects.html" class="link">Projects</a>
       <a href="./contact.html" class="link">Contact</a>
     </div>
@@ -41,7 +48,7 @@
         <p class="title"><strong>Ruby + Ruby on Rails</strong></p>
         <p>Using the Ruby programming language, Rails is a full stack web-application framework that includes everything needed to create dynamic web applications.</p>
       </div>
-      <div class="image-ruby">
+      <div class="image-ruby" id="img">
         <img src="img/skills/rails_opt.jpg" alt="Photo of rail tracks. Photo by Sunyu Kim on Unsplash">
       </div>
     </div>

@@ -60,3 +60,17 @@
   transform: scale(1.1);
   filter: grayscale(0);
 }
+
+@media only screen and (max-width: 500px) {
+  .about-content {
+    /* height: auto; */
+    flex-direction: column;
+    overflow-y: scroll;
+    align-items: center;
+
+  }
+  .right-side img {
+    height: 200px;
+  }
+
+}
