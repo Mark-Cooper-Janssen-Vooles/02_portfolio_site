@@ -6,7 +6,7 @@
 
 **Description:** The purpose of this portfolio website was to test our ability to write static HTML and CSS websites after one week of being taught about these markdown languages. 
 
-![Responsive homepage](./img_readme/responsive_gif.gif "Responsive homepage")
+![Responsive homepage](./docs/responsive_gif.gif "Responsive homepage")
 
 **Target Audience:** The website has been aimed at potential employers, and written as a sort of resume-style. 
 
@@ -28,20 +28,20 @@ In the projects page, the navbar has the same feature that highlights the curren
 
 In the contact page, the navbar has the same feature that highlights the current page. The arrows in the footer go left (back to projects).
 
-![Sitemap](./img_readme/sitemap.jpeg "Sitemap")
+![Sitemap](./docs/sitemap.jpeg "Sitemap")
 
 ## Screenshots 
 
 **Home**
-![Home](./img_readme/home.png "Home")
+![Home](./docs/home.png "Home")
 **About**
-![About](./img_readme/about.png "About")
+![About](./docs/about.png "About")
 **Skills**
-![Skills](./img_readme/skills.png "Skills")
+![Skills](./docs/skills.png "Skills")
 **Projects**
-![Projects](./img_readme/projects.png "Projects")
+![Projects](./docs/projects.png "Projects")
 **Contact**
-![Contact](./img_readme/contact.png "Contact")
+![Contact](./docs/contact.png "Contact")
 
 ## Tech Stack:
 * HTML
