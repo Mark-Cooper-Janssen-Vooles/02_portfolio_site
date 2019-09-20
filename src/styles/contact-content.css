@@ -103,7 +103,10 @@
   color: white;
 }
 .contact-content form .submit-button {
-  width: calc(100% + 5px)
+  width: calc(100% + 5px);
+  height: 40px;
+  -moz-appearance: none;
+  -webkit-appearance: none;
 }
 .contact-content form .submit-button:hover {
   background: var(--blue);
