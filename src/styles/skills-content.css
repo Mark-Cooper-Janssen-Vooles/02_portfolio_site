@@ -1,3 +1,5 @@
+/* This page contains styling for the skills main content area.  */
+
 .skills-content {
   height: calc(100vh - 10vh - 10vh - 80px);
 
@@ -37,9 +39,7 @@
   text-decoration: none;
   color: grey;
 }
-/* .skills-content .skill #img {
-  overflow: hidden;
-}  */
+
 
 .skills-content .skill .text a:hover {
   text-decoration: none;
@@ -59,7 +59,6 @@
   overflow: hidden;
 }
 .skills-content .skill .image-html img {
-  /* transition: transform .5s ease; */
   transition: transform .5s, filter 0.5s ease-in-out;
   filter: grayscale(50%);
 }

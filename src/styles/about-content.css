@@ -1,3 +1,5 @@
+/* This page contains styling for the about page content. */
+
 .about-content {
   height: calc(100vh - 10vh - 10vh - 80px);
 
@@ -13,7 +15,6 @@
   width: 55%;
   height: 90%;
   min-width: 370px;
-  /* background: rgba(128, 128, 128, 0.146); */
 
   display: flex;
   justify-content: flex-start;

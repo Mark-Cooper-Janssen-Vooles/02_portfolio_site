@@ -1,3 +1,5 @@
+/* This css is styling for the projects-content page, including styling for the card. */
+
 .projects-content {
   display: flex;
   flex-direction: column;

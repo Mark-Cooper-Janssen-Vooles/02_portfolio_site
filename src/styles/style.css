@@ -1,3 +1,5 @@
+/* This page contains styling for the whole document; it imports the nav and footer components, and also the content for each individual page. */
+
 @import "navbar.css";
 @import "footer.css";
 @import "index-content.css";

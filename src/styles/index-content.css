@@ -1,4 +1,4 @@
-/* issue making the MCJ-V thing scale? */
+/* This page contains styling for the landing page content, the top 100 view height only. */
 
 .index-content {
   height: calc(100vh - 10vh - 10vh - 80px);

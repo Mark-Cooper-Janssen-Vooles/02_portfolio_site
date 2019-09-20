@@ -1,3 +1,5 @@
+/* This css page contains styling for the parrallax effect on the home page under the first 100% view height. */
+
 .index-scrollable {
   display: flex;
   flex-direction: column;

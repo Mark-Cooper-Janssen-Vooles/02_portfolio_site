@@ -1,3 +1,4 @@
+/* css to style nav */
 nav {
   height: 20vh;
   box-sizing: border-box;
@@ -38,7 +39,6 @@ nav .links .link:hover {
 
 @media only screen and (max-width: 780px) {
   .full-text {
-    /* display: none; */
     font-size: 25px;
   }
 }
